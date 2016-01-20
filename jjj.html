@@ -1,0 +1,24 @@
+<style>
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskufiarabic.css);
+#subscribe-box {background-color:#47cf73;}
+#subscribe-box p {font-size: 18px; color: #fff; padding: 10px 20px 0 20px; margin: 0; font-family: 'Noto Sans Kufi Arabic', sans-serif!important; text-align: center;    font-weight: bold;}
+#subscribe-box .emailfield {padding:0px 20px 10px;}
+#subscribe-box .emailfield input {background: #f9f9f9; color: #bbb; padding: 10px; margin-top: 10px; font-size: 13px; width: 100%; border: 0; transition: all 0.4s ease-in-out; font-family: tahoma; border-radius: 2px!important;}
+#subscribe-box .emailfield input:focus {background:#fff;outline:none;color:#888;}
+#subscribe-box .emailfield .submitbutton {background: #4D504F; color: #fff;font-weight: 700; font-size: 16px; font-family: 'Noto Sans Kufi Arabic', sans-serif!important; border: none; outline: none; width: 100%; cursor: pointer; border-radius: 3px!important; transition: all 0.4s ease-in-out;}
+#subscribe-box .emailfield .submitbutton:active {outline:none;border:none;background:#fff;color:#e25734;}
+#subscribe-box .emailfield .submitbutton:hover{background:#fff;color:#444;} 
+</style>
+<div id="subscribe-box">
+<p class="ar1websub">
+اشترك لتصلك حصرياتنا! تطبيقات، ألعاب والمزيد...</p>
+<div class="emailfield">
+<form action="http://feedburner.google.com/fb/a/mailverify?uri=ar1web/TFDh" method="post" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=ar1web/TFDh, 'popupwindow', 'scrollbars=yes,width=550,height=520');return true" target="popupwindow">
+<input name="name" onblur="if (this.value == &quot;&quot;) {this.value = &quot;Your Name&quot;;}" onfocus="if (this.value == &quot;Your Name&quot;) {this.value = &quot;&quot;;}" type="text" value="الاسم الكريم" />
+<input name="email" onblur="if (this.value == &quot;&quot;) {this.value = &quot;Your Email&quot;;}" onfocus="if (this.value == &quot;Your Email&quot;) {this.value = &quot;&quot;;}" type="text" value="البريد الالكتروني" />
+<input name="uri" type="hidden" value="ar1web" />
+<input name="loc" type="hidden" value="en_US" />
+<input class="submitbutton" type="submit" value="اشترك الآن" />
+</form>
+</div>
+</div>
