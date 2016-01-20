@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<style>
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskufiarabic.css);
+#subscribe-box {background-color:#47cf73;}
+#subscribe-box p {font-size: 18px; color: #fff; padding: 10px 20px 0 20px; margin: 0; font-family: 'Noto Sans Kufi Arabic', sans-serif!important; text-align: center;    font-weight: bold;}
+#subscribe-box .emailfield {padding:0px 20px 10px;}
+#subscribe-box .emailfield input {background: #f9f9f9; color: #bbb; padding: 10px; margin-top: 10px; font-size: 13px; width: 100%; border: 0; transition: all 0.4s ease-in-out; font-family: tahoma; border-radius: 2px!important;}
+#subscribe-box .emailfield input:focus {background:#fff;outline:none;color:#888;}
+#subscribe-box .emailfield .submitbutton {background: #4D504F; color: #fff;font-weight: 700; font-size: 16px; font-family: 'Noto Sans Kufi Arabic', sans-serif!important; border: none; outline: none; width: 100%; cursor: pointer; border-radius: 3px!important; transition: all 0.4s ease-in-out;}
+#subscribe-box .emailfield .submitbutton:active {outline:none;border:none;background:#fff;color:#e25734;}
+#subscribe-box .emailfield .submitbutton:hover{background:#fff;color:#444;} 
+</style>
+<body>
+<div id="subscribe-box">
+<center>
+<h4>إشترك عبر البريد الإلكتروني ليصلك جديدنا</h4>
+<h5>ستصلك رسالة على بريدك لتفعيل الخدمة</h5>
+<form id='cnfor' action="http://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=cnmu', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true"><p>
+<input id='cnfortext' type="text" value="أكتب بريدك الإلكتروني" onfocus="if (this.value == &quot;أكتب بريدك الإلكتروني&quot;) {this.value = &quot;&quot;;}" onblur="if (this.value == &quot;&quot;) {this.value = &quot;أكتب بريدك الإلكتروني&quot;;}" name="email"/></p>
+<input id='cnforbu' type="submit" value="إشترك" />
+<input name="uri" type="hidden" value="munt"/>
+<input name="loc" type="hidden" value="en_US"/>
+</form>
+</center>
+</div>
+</body>
+</html>
